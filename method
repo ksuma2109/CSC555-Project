@@ -1,0 +1,40 @@
+sents = (batch_size, list_tokens)
+
+A -> b
+
+A.transpose()*(f(b))
+
+R1: Sentence -> Word Words
+R2: Word -> 'a'
+
+'a' - > Ea
+Word -> E_word
+
+Word -> 'a'
+Word =>'an'
+
+Word -> Word1 Word2
+
+Words -> Word Words
+
+R3: 
+
+R2: E_word.transopose()*f(Ea)/(summation(similarity(Word, a)+similarity(Word, an))) = p(Word -> a | Word)
+
+pcfg_score
+
+adapted_score=f2(pcfg_score)
+
+
+a cat 
+
+Sentence -> Word Words: Word -> a, Words -> Word, Word -> cat
+
+R1, R2, R3, R4
+
+
+
+
+
+
+
